@@ -9,6 +9,7 @@ header {
     background-color: #FF6800;
 }
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -37,9 +38,11 @@ header {
 }
 
 .content {
-    background-color: #FF6800;
-    border: 1px solid black;
-    height: 300px;
+    margin: 15px;
+}
+
+.contentimg {
+    width: 100%;
 }
 
 /* Style classes */
@@ -70,4 +73,8 @@ li {
 
 i {
     padding-right: 10px;
+}
+
+img {
+    width: 100%
 }
