@@ -34,6 +34,15 @@ header {
     padding: 10px 0;
 }
 
+.col-left {
+    width: 50%;
+
+}
+
+.col-right {
+    width: 50%;
+}
+
 #logo {
     width: 150px;
 }
@@ -48,8 +57,12 @@ header {
 }
 
 /* Style classes */
-ul {
+.flex-nostyle {
     display: flex;
+    list-style: none;
+}
+
+.nostyle {
     list-style: none;
 }
 
@@ -57,7 +70,7 @@ li {
     padding-right: 10px;
 }
 
-.text-center {
+.center {
     text-align: center;
 }
 
@@ -134,4 +147,12 @@ img {
 .red-text {
     color: red;
     padding-right: 5px;
+}
+
+footer {
+    background-color: #1A1A1A;
+}
+
+h3 {
+    margin-bottom: 10px;
 }
