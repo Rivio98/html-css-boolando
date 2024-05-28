@@ -11,6 +11,7 @@ header {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     width: 1200px;
     margin: 0 auto;
     padding: 15px;
@@ -27,8 +28,18 @@ header {
     width: 50%;
 }
 
+.col-33 {
+    width: calc(100% / 3);
+}
+
 #logo {
     width: 150px;
+}
+
+.content {
+    background-color: #FF6800;
+    border: 1px solid black;
+    height: 300px;
 }
 
 /* Style classes */
