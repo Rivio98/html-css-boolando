@@ -42,7 +42,7 @@ header {
     position: relative;
 }
 
-.contentimg {
+.content img {
     width: 100%;
 }
 
@@ -82,8 +82,29 @@ img {
 
 .favorite {
     font-size: 30px;
-    background-color: blue;
+    padding: 0 10px;
+    background-color: #fff;
     position: absolute;
     top: 10px;
     right: 0;
+}
+
+.label {
+    position: absolute;
+    bottom: 40px;
+    padding: 5px 10px;
+}
+
+.bg-red {
+    background-color: #FF0000;
+    left: 0;
+}
+
+.bg-green {
+    background-color: #008000;
+    left: 60px;
+}
+
+.no-left {
+    left: 0;
 }
